@@ -1,5 +1,5 @@
 ---
-title: /books
+title: /home
 position_number: 1.1
 type: post
 description: Create Book
