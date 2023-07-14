@@ -14,12 +14,9 @@ baseurl:
 timezone: Etc/UTC
 
 collections:
-  documentation:
-    title: Documentation
-    position_number: 1
   api:
-    title: APIs
-    position_number: 2
+    title: Aisya DS
+    position_number: 1
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
