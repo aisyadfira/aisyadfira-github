@@ -19,7 +19,7 @@ title: API Docs
 				{% if doc.description %}
 					<p class="description">{{ doc.description }}</p>
 				{% endif %}
-
+				{% comment %}
 				{% if doc.parameters and doc.parameters[0].name %}
 						<h6>Parameters</h6>
 						<dl>
@@ -37,6 +37,8 @@ title: API Docs
 								{% include syntax-highlight.html block=block %}
 								{% endfor %}
 						{% endif %}
+									{% endcomment %}
+
 			</section>
 			{% if doc.right_code_blocks and doc.right_code_blocks[0].code_block %}
 					<section class="right-code">
