@@ -1,8 +1,8 @@
 ---
-title: /books
+title: /personal information
 position_number: 1.0
 type: get
-description: List all books
+description: List all personal information
 parameters:
   - name: offset
     content: Offset the results by this amount
