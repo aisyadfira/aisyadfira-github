@@ -570,3 +570,6 @@ header {
 .sidebar li:nth-child(2), .sidebar li:nth-child(3), .sidebar li:nth-child(4), .sidebar li:nth-child(5) {
     display: none;
 }
+section.doc-content:nth-child(2), section.doc-content:nth-child(3), section.doc-content:nth-child(4), section.doc-content:nth-child(5) {
+    display: none;
+}
