@@ -565,5 +565,8 @@ header {
 	text-align: center;
 	font-size: .6em;
 	margin: 30px 0 0 0;
-	display: none;
+	display: none !important;
+}
+.sidebar li:nth-child(2), .sidebar li:nth-child(3), .sidebar li:nth-child(4), .sidebar li:nth-child(5) {
+    display: none;
 }
