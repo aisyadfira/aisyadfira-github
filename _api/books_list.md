@@ -40,7 +40,6 @@ left_code_blocks:
     language: bash
 right_code_blocks:
   - code_block: |2-
-[
 {
             
     "name": "Aisya",
@@ -61,7 +60,7 @@ right_code_blocks:
           "Trying New Recipes"
                 ]
       }
-      ]
+      
     title: Response
     language: json
   - code_block: |2-
