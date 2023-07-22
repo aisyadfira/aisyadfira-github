@@ -1,5 +1,5 @@
 ---
-title: /about
+title: /about me
 position_number: 1.0
 type: get
 description: 
