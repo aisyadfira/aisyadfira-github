@@ -573,3 +573,6 @@ img.under-construction {
 section.doc-content:nth-child(1) dl, section.doc-content:nth-child(1) h6, section.doc-content:nth-child(1) .info, section.doc-content:nth-child(1) .left-docs .code-viewer {
     display: none;
 }
+section.left-docs p {
+    font-family: 'Fira Code', monospace;
+}
