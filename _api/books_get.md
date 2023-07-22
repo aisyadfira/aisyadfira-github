@@ -1,5 +1,5 @@
 ---
-title: /books/:id
+title: /resume
 position_number: 1.3
 type: get
 description: Get Book
