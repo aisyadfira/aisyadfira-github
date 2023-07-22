@@ -1,8 +1,8 @@
 ---
-title: /personal information
+title: /about
 position_number: 1.0
 type: get
-description: List all personal information
+description: 
 parameters:
   - name: offset
     content: Offset the results by this amount
@@ -12,7 +12,7 @@ content_markdown: |-
   This call will return a maximum of 100 books
   {: .info }
 
-  Lists all the photos you have access to. You can paginate by using the parameters listed above.
+Hello there! I'm Aisya, a seasoned professional with a passion for technical support and leadership. By day, I thrive in troubleshooting and resolving complex issues as a Remote Customer Service expert and Team Leader. But that's not all – when I'm not immersed in the tech world, you can find me embracing my creative side. I absolutely love exploring my artistic flair through drawing and creating captivating illustrations. Balancing the best of both worlds, I'm eager to bring my diverse skills and enthusiasm to every endeavor I embark upon. Let's connect and bring some magic to the table! 🌟🎨
 left_code_blocks:
   - code_block: |-
       $.get("http://api.myapp.com/books/", { "token": "YOUR_APP_KEY"}, function(data) {
