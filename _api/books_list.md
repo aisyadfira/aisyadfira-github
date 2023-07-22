@@ -11,9 +11,6 @@ parameters:
 content_markdown: |-
   This call will return a maximum of 100 books
   {: .info }
-
-Hello there! I'm Aisya, a seasoned professional with a passion for technical support and leadership. By day, I thrive in troubleshooting and resolving complex issues as a Remote Customer Service expert and Team Leader. But that's not all – when I'm not immersed in the tech world, you can find me embracing my creative side. I absolutely love exploring my artistic flair through drawing and creating captivating illustrations. Let's connect and bring some magic to the table! 
-
 left_code_blocks:
   - code_block: |-
       $.get("http://api.myapp.com/books/", { "token": "YOUR_APP_KEY"}, function(data) {
