@@ -11,7 +11,6 @@ parameters:
 content_markdown: |-
   This call will return a maximum of 100 books
   {: .info }
-
  Hello there! I'm Aisya, a seasoned professional passionate about technical support and leadership. By day, I thrive in troubleshooting and resolving complex issues as a Remote Customer    Service expert and Team Leader. When I'm not immersed in the tech world, I embrace my creative side. I love exploring my artistic flair through drawing and creating   
   illustrations.
 left_code_blocks:
