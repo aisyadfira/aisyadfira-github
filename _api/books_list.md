@@ -40,14 +40,24 @@ left_code_blocks:
     language: bash
 right_code_blocks:
   - code_block: |2-
-      [
-        {
-          "success": false,
-          "error": {
-                "code":404
-                "type":"no_content"
-                "Info":"Content is under construction" }
-        },
+            "name": "Aisya",
+      "location": "Amsterdam, The Netherlands",
+      "origin": "Bali, Indonesia",
+      "skills": [
+            "Technical Support",
+            "Team Leadership",
+            "Illustration",
+            "Problem-solving",
+            "Creativity"
+                ],
+     "interests": [
+          "Tech Gadgets",
+          "Exploring Nature",
+          "Comic Books",
+          "Traveling",
+          "Trying New Recipes"
+                ]
+      }
       ]
     title: Response
     language: json
