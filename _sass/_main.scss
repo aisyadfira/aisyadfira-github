@@ -570,3 +570,6 @@ header {
 img.under-construction {
     width: 50%;
 }
+section.doc-content:nth-child(1) dl, section.doc-content:nth-child(1) h6, section.doc-content:nth-child(1) .info {
+    display: none;
+}
