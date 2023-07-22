@@ -40,8 +40,7 @@ left_code_blocks:
     language: bash
 right_code_blocks:
   - code_block: |2-
-{
-            
+ {            
     "name": "Aisya",
       "location": "Amsterdam, The Netherlands",
       "origin": "Bali, Indonesia",
@@ -59,8 +58,7 @@ right_code_blocks:
           "Traveling",
           "Trying New Recipes"
                 ]
-      }
-      
+    }      
     title: Response
     language: json
   - code_block: |2-
