@@ -2,7 +2,7 @@
 title: /about me
 position_number: 1.0
 type: get
-description: List all books
+description: 
 parameters:
   - name: offset
     content: Offset the results by this amount
