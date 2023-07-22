@@ -1,5 +1,5 @@
 ---
-title: /books/:id
+title: /contacts
 position_number: 1.4
 type: put
 description: Update Book
