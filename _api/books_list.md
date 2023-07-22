@@ -40,6 +40,24 @@ left_code_blocks:
     language: bash
 right_code_blocks:
   - code_block: |2-
+    {
+  "name": "Aisya",
+  "location": "Bali, Indonesia",
+  "skills": [
+    "Technical Support",
+    "Team Leadership",
+    "Illustration",
+    "Problem-solving",
+    "Creativity"
+  ],
+  "personality": "Energetic, Enthusiastic, and Curious",
+  "interests": [
+    "Tech Gadgets",
+    "Exploring Nature",
+    "Comic Books",
+    "Traveling",
+    "Trying New Recipes"
+  ]
     title: Response
     language: json
   - code_block: |2-
