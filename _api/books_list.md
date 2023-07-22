@@ -1,8 +1,8 @@
 ---
-title: /about me
+title: /books
 position_number: 1.0
 type: get
-description: 
+description: List all books
 parameters:
   - name: offset
     content: Offset the results by this amount
@@ -12,8 +12,7 @@ content_markdown: |-
   This call will return a maximum of 100 books
   {: .info }
 
-Hello there! I'm Aisya, a seasoned professional passionate about technical support and leadership. By day, I thrive in troubleshooting and resolving complex issues as a Remote Customer    Service expert and Team Leader. When I'm not immersed in the tech world, I embrace my creative side. I love exploring my artistic flair through drawing and creating   
-  illustrations.
+  Lists all the photos you have access to. You can paginate by using the parameters listed above.
 left_code_blocks:
   - code_block: |-
       $.get("http://api.myapp.com/books/", { "token": "YOUR_APP_KEY"}, function(data) {
