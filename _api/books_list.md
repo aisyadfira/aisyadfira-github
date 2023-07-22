@@ -40,7 +40,7 @@ left_code_blocks:
     language: bash
 right_code_blocks:
   - code_block: |2-
-    [
+      [
         {
           "success": false,
           "error": {
