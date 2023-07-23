@@ -23,15 +23,21 @@ title: API Docs
 						<h6>Parameters</h6>
 						<dl>
 								{% for parameter in doc.parameters %}
-										<dt>{{ parameter.name }}</dt>
-										<dd> {% if parameter.content == "Customer support | Influx" %}
-										    <p>Customer support | Influx</p>
-										           <p>Placeholder text</p>
-        										{% else %}
-           										{{ parameter.content }}
-       										 {% endif %}
-										</dd>
-								{% endfor %}
+    <dt>{{ parameter.name }}</dt>
+    <dd>
+        {% if parameter.content == "Customer support | Influx" %}
+            <p>Customer support | Influx</p>
+            <p>Placeholder text</p>
+        {% elif parameter.content == "Team Leader | Stamped.io" %}
+            <p>Team Leader | Stamped.io</p>
+            <p>Placeholder text</p>
+        {% elif parameter.content == "Senior Technical Support | Stamped.io" %}
+            <p>Senior Technical Support | Stamped.io</p>
+        {% else %}
+            {{ parameter.content }}
+        {% endif %}
+    </dd>
+{% endfor %}
 						</dl>
 				{% endif %}
 
