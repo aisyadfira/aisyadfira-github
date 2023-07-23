@@ -11,7 +11,6 @@ parameters:
   - name: 2021 - 2023
     content: Senior Technical Support | Stamped.io
 content_markdown: |-
-  The book will automatically be added to your reading list
   {: .success}
 
   Adds a book to your collection.
