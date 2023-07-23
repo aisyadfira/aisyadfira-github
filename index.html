@@ -18,6 +18,10 @@ title: API Docs
 				</h3>
 				{% if doc.description %}
 					<p class="description">{{ doc.description }}</p>
+				        {% if doc.description == "Work experience and side projects" %}
+					<p class="success">Work Experience</p>
+				{% endif %}
+
 				{% endif %}
 				{% if doc.parameters and doc.parameters[0].name %}
 						<h6>Parameters</h6>
