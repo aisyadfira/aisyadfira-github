@@ -12,8 +12,8 @@ parameters:
     content: Senior Technical Support | Stamped.io
 content_markdown: |-
   {: .success}
-
-  Adds a book to your collection.
+Side Projects
+ 
 left_code_blocks:
   - code_block: |-
       $.post("http://api.myapp.com/books/", {
