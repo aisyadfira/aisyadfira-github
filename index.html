@@ -24,7 +24,14 @@ title: API Docs
 						<dl>
 								{% for parameter in doc.parameters %}
 										<dt>{{ parameter.name }}</dt>
-										<dd>{{ parameter.content }}</dd>
+										<dd> {% if parameter.content == "Customer support | Influx" %}
+										    <p>Customer support | Influx</p>
+										           <p>Placeholder text</p>
+        {% else %}
+            {{ parameter.content }}
+        {% endif %}
+
+</dd>
 								{% endfor %}
 						</dl>
 				{% endif %}
