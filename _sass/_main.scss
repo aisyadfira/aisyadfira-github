@@ -570,13 +570,13 @@ header {
 img.under-construction {
     width: 50%;
 }
-section.doc-content:nth-child(1) dl, section.doc-content:nth-child(1) h6, section.doc-content:nth-child(1) .info, section.doc-content:nth-child(1) .left-docs .code-viewer {
-    display: none;
-}
 section.left-docs p {
     font-family: 'Fira Code', monospace;
 }
 /*
+section.doc-content:nth-child(1) dl, section.doc-content:nth-child(1) h6, section.doc-content:nth-child(1) .info, section.doc-content:nth-child(1) .left-docs .code-viewer {
+    display: none;
+}
 div#sidebar li:last-child, .doc-content:last-child {
     display: none;
 }
