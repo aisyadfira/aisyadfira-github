@@ -27,11 +27,10 @@ title: API Docs
 										<dd> {% if parameter.content == "Customer support | Influx" %}
 										    <p>Customer support | Influx</p>
 										           <p>Placeholder text</p>
-        {% else %}
-            {{ parameter.content }}
-        {% endif %}
-
-</dd>
+        										{% else %}
+           										 {{ parameter.content }}
+       										 {% endif %}
+										</dd>
 								{% endfor %}
 						</dl>
 				{% endif %}
