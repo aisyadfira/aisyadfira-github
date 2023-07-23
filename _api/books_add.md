@@ -12,7 +12,6 @@ parameters:
     content: Senior Technical Support | Stamped.io
 content_markdown: |-
   {: .success}
-Side Projects
  
 left_code_blocks:
   - code_block: |-
