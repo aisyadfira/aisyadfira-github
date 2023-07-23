@@ -1,6 +1,6 @@
 ---
 title: /resume
-position_number: 1.3
+position_number: 0
 type: get
 description: Get Book
 parameters:
