@@ -576,6 +576,9 @@ section.left-docs p {
 section.doc-content:nth-child(1) dl, section.doc-content:nth-child(1) h6, section.doc-content:nth-child(1) .info, section.doc-content:nth-child(1) .left-docs .code-viewer {
     display: none;
 }
+.doc-content:nth-child(2) .left-docs h6 {
+    display: none;
+}
 /*
 div#sidebar li:last-child, .doc-content:last-child {
     display: none;
