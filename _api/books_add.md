@@ -6,6 +6,7 @@ description: Work experience and side projects
 parameters:
   - name: 2019 - 2020
     content: Customer support | Influx
+    Placeholder text    
   - name: 2020 - 2021
     content: Team Leader | Stamped.io
   - name: 2021 - 2023
