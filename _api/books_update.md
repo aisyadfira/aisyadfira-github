@@ -1,6 +1,6 @@
 ---
 title: /contacts
-position_number: 1.4
+position_number: 1.2
 type: put
 description: Update Book
 parameters:
