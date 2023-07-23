@@ -2,12 +2,12 @@
 title: /works
 position_number: 1.1
 type: post
-description: Create Book
+description: Work experience and side projects
 parameters:
-  - name: title
-    content: The title for the book
-  - name: score
-    content: The book's score between 0 and 5
+  - name: 2019 - 2020
+    content: Customer support | Influx
+  - name: 2020 - 2023
+    content: Senior Technical Support - Team Leader | Stamped.io
 content_markdown: |-
   The book will automatically be added to your reading list
   {: .success}
