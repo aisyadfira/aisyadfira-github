@@ -26,10 +26,12 @@ left_code_blocks:
     language: javascript
 right_code_blocks:
   - code_block: |-
-     {
-        "error": true,
-        "message": "Oops! No Content"
-      }
+     [
+        {
+          "name": "Aisya",
+          "tl_dr": "Versatile professional with expertise in top-tier customer support, team leadership, and senior technical roles. Skilled             in troubleshooting complex issues and optimizing system performance through diverse technical abilities."
+        }
+    ]
     title: Response
     language: json
   - code_block: |-
