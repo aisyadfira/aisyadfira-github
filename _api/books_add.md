@@ -26,18 +26,18 @@ left_code_blocks:
     language: javascript
 right_code_blocks:
   - code_block: |-
-      {
-        "id": 3,
-        "title": "The Book Thief",
-        "score": 4.3,
-        "dateAdded": "5/1/2015"
-      }
+      [
+        {
+    "name": "Aisya",
+    "tl_dr": "Versatile professional with expertise in top-tier customer support, team leadership, and senior technical roles. Skilled in     troubleshooting complex issues and optimizing system performance through diverse technical abilities."
+        }
+      ]
     title: Response
     language: json
   - code_block: |-
       {
         "error": true,
-        "message": "Invalid score"
+        "message": "Oops! No Content"
       }
     title: Error
     language: json
