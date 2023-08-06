@@ -53,6 +53,11 @@ title: API Docs
 								{% include syntax-highlight.html block=block %}
 								{% endfor %}
 						{% endif %}
+				  {% if doc.description == "Work experience and side projects" %}
+				<p class="success">Side Projects</p>
+
+						{% endif %}
+
 
 			</section>
 			{% if doc.right_code_blocks and doc.right_code_blocks[0].code_block %}
