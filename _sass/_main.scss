@@ -576,10 +576,13 @@ section.left-docs p {
 section.doc-content:nth-child(1) dl, section.doc-content:nth-child(1) h6, section.doc-content:nth-child(1) .info, section.doc-content:nth-child(1) .left-docs .code-viewer {
     display: none;
 }
-section.doc-content:nth-child(2) .left-docs .code-viewer {
+section.doc-content:nth-child(2) .left-docs .code-viewer, section.doc-content:nth-child(3) .left-docs .code-viewer {
     display: none;
 }
 .doc-content:nth-child(2) .left-docs h6, .doc-content:nth-child(3) .left-docs h6{
+    display: none;
+}
+.doc-content:nth-child(3) .description {
     display: none;
 }
 .doc-content:nth-child(2) .left-docs dd p {
