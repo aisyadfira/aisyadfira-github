@@ -579,7 +579,7 @@ section.doc-content:nth-child(1) dl, section.doc-content:nth-child(1) h6, sectio
 section.doc-content:nth-child(2) .left-docs .code-viewer {
     display: none;
 }
-.doc-content:nth-child(2) .left-docs h6 {
+.doc-content:nth-child(2) .left-docs h6, .doc-content:nth-child(3) .left-docs h6{
     display: none;
 }
 .doc-content:nth-child(2) .left-docs dd p {
