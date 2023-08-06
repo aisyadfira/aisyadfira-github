@@ -26,7 +26,7 @@ left_code_blocks:
     language: javascript
 right_code_blocks:
   - code_block: |-
-  {
+     {
         "error": true,
         "message": "Oops! No Content"
       }
