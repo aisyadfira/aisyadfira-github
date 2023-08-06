@@ -30,17 +30,15 @@ left_code_blocks:
 right_code_blocks:
   - code_block: |2-
       {
-        "id": 3,
-        "title": "The Book Stealer",
-        "score": 5,
-        "dateAdded": "5/1/2015"
+        "id": my contact section,
+        "message": "Ready to enhance customer experiences and drive Satisfaction?  I'll deliver outstanding support for your company!"    
       }
     title: Response
     language: json
   - code_block: |2-
       {
         "error": true,
-        "message": "Book doesn't exist"
+        "message": ""
       }
     title: Error
     language: json
