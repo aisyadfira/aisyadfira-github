@@ -582,6 +582,9 @@ section.doc-content:nth-child(2) .left-docs .code-viewer {
 .doc-content:nth-child(2) .left-docs h6 {
     display: none;
 }
+.doc-content:nth-child(2) .left-docs dd p {
+    font-size: 13px;
+}
 /*
 div#sidebar li:last-child, .doc-content:last-child {
     display: none;
