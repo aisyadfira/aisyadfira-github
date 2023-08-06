@@ -30,7 +30,6 @@ left_code_blocks:
 right_code_blocks:
   - code_block: |2-
       {
-        "id": my contact section,
         "message": "Ready to enhance customer experiences and drive Satisfaction?  I'll deliver outstanding support for your company!"    
       }
     title: Response
