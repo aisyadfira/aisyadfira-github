@@ -585,6 +585,20 @@ section.doc-content:nth-child(2) .left-docs .code-viewer {
 .doc-content:nth-child(2) .left-docs dd p {
     font-size: 13px;
 }
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
+    gap: 10px;
+    margin: 20px auto; /* Center the gallery and add margin */
+    max-width: 800px; /* Set a maximum width for the gallery */
+  }
+  
+  .gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px; /* Add a border radius for rounded corners */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+  }
 /*
 div#sidebar li:last-child, .doc-content:last-child {
     display: none;
