@@ -4,10 +4,10 @@ position_number: 1.2
 type: put
 description: 
 parameters:
-  - name: title
-    content: The title for the book
-  - name: score
-    content: The book's score between 0 and 5
+  - name: LinkedIn
+    content: <a href="Facebook.com"> facebook/aisyadfira </a>
+  - name: Facebook
+    content: <a href="Facebook.com"> facebook/aisyadfira </a>
 content_markdown: |-
 left_code_blocks:
   - code_block: |-
