@@ -5,9 +5,9 @@ type: put
 description: 
 parameters:
   - name: LinkedIn
-    content: <a href="Facebook.com"> facebook/aisyadfira </a>
+    content: <a href="www.facebook.com/aisyadfira"> facebook/aisyadfira </a>
   - name: Facebook
-    content: <a href="Facebook.com"> facebook/aisyadfira </a>
+    content: <a href="www.linkedin.com/in/aisyadfira"> linkedin.com/in/aisyadfira </a>
 content_markdown: |-
 left_code_blocks:
   - code_block: |-
