@@ -2,7 +2,7 @@
 title: /about me
 position_number: 1.0
 type: get
-description: 
+description: A little bit about me
 parameters:
   - name: offset
     content: Offset the results by this amount
