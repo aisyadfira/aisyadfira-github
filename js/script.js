@@ -1,7 +1,7 @@
 const imageGallery = document.getElementById("image-gallery");
 
 // Fetch images from the API
-fetch("http://13.239.136.78:8000/images")
+fetch("https://13.239.136.78.nip.io/images")
   .then(response => response.json())
   .then(data => {
     if (data.success) {
