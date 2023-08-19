@@ -20,8 +20,21 @@ fetch("https://13.239.136.78.nip.io/images")
         });
       });
 
-      // Initialize NanoGallery2
-      $("#ngy2p").nanogallery2(ngy2Data);
+      // Initialize NanoGallery2 with configuration options
+      $("#ngy2p").nanogallery2({
+        itemsBaseURL: "",
+        thumbnailWidth: 200,
+		thumbnailHeight: "auto",
+        thumbnailLabel: {
+          position: "overImageOnBottom",
+		  display: false
+        },
+		galleryDisplayMode: "moreButton",
+        thumbnailAlignment: "center",
+        thumbnailOpenImage: true,
+        // Add more configuration options here as needed
+        items: ngy2Data.items
+      });
     } else {
       console.error("Error fetching images:", data.message);
     }
